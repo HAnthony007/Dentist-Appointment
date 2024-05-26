@@ -1,0 +1,6 @@
+.rbc-day-bg:hover {
+    background-color: #e6e6e6;
+}
+.rbc-day-bg{
+    transition: all .5s ease-in-out;
+}

@@ -1,0 +1,145 @@
+.site-main{
+    height: 472px;
+    color: white;
+}
+.mai {
+    height: 100vh !important;
+}
+.bg-main{
+    background-color: #107aca;
+    background-image: url(/Headmain.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+.bgNav {
+    background-color: #107aca;
+}
+
+.top {
+    margin-top: -4rem;
+}
+
+.cardStyle{
+    max-width: 384px;
+    height: 168px;
+    padding-left: 24px;
+    box-shadow: 0 2px 4px #052b4712, 0 5px 25px #052b4717;
+    z-index: 9999;
+}
+.cardStyle a{
+    color: #107aca !important;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: auto !important;
+}
+
+.imgListe {
+    backface-visibility: hidden;
+    background: linear-gradient(45deg, #001367, #107aca);
+    clip-path: ellipse(98% 110% at 99% 70%);
+}
+.imgListe img {
+    vertical-align: middle;
+    width: 120px;
+    aspect-ratio: auto 120 / 168;
+    height: 168px;
+}
+
+.service div {
+    max-width: 32rem;
+}
+
+.colornumber {
+    color: #107aca;
+}
+
+.recrute{
+    background-color: #e7f4fd;
+}
+.recrute img {
+    width: 280px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+@media (min-width:1024px) {
+    .top, .service {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .cest {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media (min-width:1000px) {
+    .recrute {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width:780px) {
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+@media (max-width:550px) {
+    .footerFlex {
+        flex-direction: column;
+    }
+    .footerFlex p {
+        margin-left: 0 !important;
+    }
+}
+@media ((max-width:1024px) and (min-width:768px)) {
+    .top, .service {
+        grid-template-columns: 1fr 1fr;
+    }
+    .last, .service {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width:770px) {
+    .imgListe {
+        display: none;
+    }
+}
+
+
+/*=================== Login Style ===============*/
+.bgLogin {
+    background-color: #F1F7FE;
+}
+.isLogin{
+    width: 450px;
+    height: 98%;
+}
+.isSignup {
+    width: 450px;
+    height: 75%;
+}
+
+.inscri{
+    transition: all 1s ease-in-out;
+}
+.hLogSign {
+    height: 8rem;
+}
+.hLog{
+    height: 19rem;
+}
+.formLoginSign{
+    height: 0rem;
+}
+.formLogin{
+    height: 12rem;
+}
+.forgotPassword {
+    height: 3rem;
+}
+.hSignLog{
+    height: 0rem;
+}
+.hSign{
+    height: 38.5rem;
+}

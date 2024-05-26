@@ -1,0 +1,6 @@
+.layoutApp {
+    height: 97vh;
+    overflow: hidden !important;
+    width: 100%;
+    min-width: 50vh;
+}
