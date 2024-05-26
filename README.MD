@@ -3,7 +3,7 @@
 ### Project fullstack **Javascript** using: 
 * **Frontend:** 
     * [**reactjs**](https://react.dev)
-    * [**ant design**](https://antd.com)
+    * [**ant design**](https://ant.design)
 
 * **Backend**
     * **express** 
