@@ -29,7 +29,7 @@
 ## ⬇️ Installation
 
 ```bash
-git clone https://github.com
+git clone https://github.com/HAnthony007/DentistAppointment.git
 ```
 
 ```bash
